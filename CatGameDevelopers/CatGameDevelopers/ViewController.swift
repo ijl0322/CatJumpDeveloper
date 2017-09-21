@@ -24,6 +24,9 @@ class ViewController: UIViewController {
             messageToSend = message
             ClouldKitManager.sharedInstance.send(message: messageToSend)
             textField.text = ""
+            let alert = UIAlertController(title: "", message: "Notificaiton Sent", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
     }
     
@@ -42,8 +45,6 @@ class ViewController: UIViewController {
                 }
             }
         }
-        
-        
     }
 
     @IBAction func previewMessage(_ sender: UIButton) {
@@ -57,6 +58,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         textField.delegate = self
         levelRef = FIRDatabase.database().reference(withPath: "levels")
+    }
+    
+    @IBAction func unwindToRoot(_ sender: UIStoryboardSegue) {
+        
     }
 }
 

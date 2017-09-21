@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E139B311EDE63DB00304128 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E139B301EDE63DA00304128 /* TutorialViewController.swift */; };
 		0E47E4691EDB96B10026CC7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E47E4681EDB96B10026CC7F /* GoogleService-Info.plist */; };
 		0E47E46C1EDB982B0026CC7F /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E47E46B1EDB982B0026CC7F /* Level_1.json */; };
 		0E47E46E1EDB98370026CC7F /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E47E46D1EDB98370026CC7F /* Level_2.json */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E139B301EDE63DA00304128 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		0E47E4681EDB96B10026CC7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0E47E46B1EDB982B0026CC7F /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
 		0E47E46D1EDB98370026CC7F /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				0E820CA61ED5DA1100301C91 /* LaunchScreen.storyboard */,
 				0E820CA91ED5DA1100301C91 /* Info.plist */,
 				0E47E4791EDBBE650026CC7F /* BreadType.swift */,
+				0E139B301EDE63DA00304128 /* TutorialViewController.swift */,
 			);
 			path = CatGameDevelopers;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E820CB41ED5DC4600301C91 /* CloudkitManager.swift in Sources */,
+				0E139B311EDE63DB00304128 /* TutorialViewController.swift in Sources */,
 				0E47E4781EDBAF2E0026CC7F /* NewLevelViewController.swift in Sources */,
 				0E47E47C1EDBD4A00026CC7F /* FirebaseManager.swift in Sources */,
 				0E47E4721EDB992F0026CC7F /* Dictionary+JsonExtension.swift in Sources */,
